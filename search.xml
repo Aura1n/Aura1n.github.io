@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>为什么使用这个主题</title>
+      <link href="/2025/10/06/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8%E8%BF%99%E4%B8%AA%E4%B8%BB%E9%A2%98/"/>
+      <url>/2025/10/06/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8%E8%BF%99%E4%B8%AA%E4%B8%BB%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<p>本人相对来说更喜欢简约的博客主题，简单并且功能齐全，这样看着比较舒心，观感也好。这次我就总结说一下我的博客是怎么做成的吧，由于本人还是新手，有很多东西都不了解，如果文章中有任何错误，请指出来，我会积极学习改正的。</p><p>首先感谢国外大佬开发的hexo主题<a href="https://github.com/probberechts/hexo-theme-cactus?tab=readme-ov-file">Cactus</a>，我看中它的原因就是界面设置非常简洁，几乎没有任何多余的界面，麻雀虽小五脏俱全，很适合我这样专注于写作的博主了。</p><p>跟着github上的教程很快我就本地部署完成了，然后我就上传的自己的github仓库上搭建网站。跟着网上的教程也是简单易懂噢。</p><p>在测试工程中唯一让我耗费时间的是评论系统，Cactus主题自带的评论插件只有两个，一个是Disqus，一个是Utterances，Disqus链接的github仓库上的Discussions系统，但是没有回复功能，Utterances功能很齐全但是在国内被墙了看不到。所以我费尽心思寻找各种评论插件，有些还需要服务器做后端我就没用。最后找到了类似于Disqus的升级版gitcus，总算解决了评论后回复功能的问题，而且还支持输出markdown格式和图片（好像感觉用不着这么费心，毕竟也没有人看&gt; _ &lt;）, 总之这就是我全部的工作了，也在此记录一下我的心路历程。 </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第一篇文章</title>
       <link href="/2025/10/04/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>/2025/10/04/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
