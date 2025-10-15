@@ -439,6 +439,30 @@ body td {
   font-family: "Meslo LG";
   src: local("Meslo LG S"), url("../lib/meslo-LG/MesloLGS-Regular.ttf") format("truetype");
 }
+.gallery-grid {
+  column-count: 2;        /* 两列 */
+  column-gap: 1rem;       /* 列间距 */
+}
+
+.gallery-item {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: zoom-in;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
 *,
 *:before,
 *:after {
