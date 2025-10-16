@@ -463,6 +463,15 @@ body td {
   opacity: 0.9;
 }
 
+/*图片懒加载*/
+.lazyload {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.lazyload.loaded {
+  opacity: 1;
+}
 *,
 *:before,
 *:after {
@@ -709,18 +718,34 @@ body {
     display: inline-block;
     text-align: center;
   }
+  #header #nav ul.responsive {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0.75rem 0 0 0;
+    list-style: none;
+  }
   #header #nav ul.responsive li {
-    display: block;
+    display: inline-block;
+    padding: 0 0.5rem;
+    margin: 0;
+    border: none;
+  }
+  #header #nav ul.responsive a {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
   }
   #header #nav ul a[aria-label="Menu"] {
     display: inline-block;
     min-width: 48px;
     min-height: 48px;
   }
-  #header #nav li:not(:first-child) {
-    padding-top: 1rem;
-    padding-left: 70px;
-    font-size: 1rem;
+  #header #nav ul.responsive li:not(:first-child) {
+    padding-top: 0;
   }
 }
 #header-post {
