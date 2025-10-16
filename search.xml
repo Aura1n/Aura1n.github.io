@@ -4,9 +4,28 @@
   
     
     <entry>
+      <title>什么是RSS订阅</title>
+      <link href="/%E4%BB%80%E4%B9%88%E6%98%AFRSS%E8%AE%A2%E9%98%85/"/>
+      <url>/%E4%BB%80%E4%B9%88%E6%98%AFRSS%E8%AE%A2%E9%98%85/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本次网站更新做了很多方面的优化，其中包括为网站增加了RSS订阅功能。在这个时代，APP化的各种媒体把人们圈在不同的地盘里，曾经风光无限的RSS如今却快被多数人遗忘。但是对于个人博客，RSS还是有很大的作用的，现在让我们来认识一下RSS究竟是什么吧。</p><h1 id="一、什么是RSS"><a href="#一、什么是RSS" class="headerlink" title="一、什么是RSS"></a>一、什么是RSS</h1><blockquote><p>RSS 是“简易内容聚合”（Really Simple Syndication）的缩写，是一种用于订阅各种网站内容的工具。</p></blockquote><p>RSS 是一种基于 XML 的内容分发格式，允许网站将最新的文章、新闻、博客等信息以“订阅源”的形式提供给用户。用户通过 RSS 阅读器（Feed Reader）订阅后，可以在一个地方查看多个网站的更新，而无需逐一访问每个网站。</p><p>通俗来说，RSS 就像一个自动更新的电子报，把你关注的网站的新内容直接送到你的阅读器里，这样你就不用每天上网去看某个博客网站到底有没有更新了，节省自己的时间。</p><ul><li><strong>集中管理</strong>：一次订阅，多个网站内容汇总查看。</li><li><strong>实时更新</strong>：文章发布后可立即在阅读器中看到。</li><li><strong>免打扰</strong>：不必浏览网站广告或弹窗，专注内容本身。</li><li><strong>跨平台同步</strong>：阅读器通常支持手机、电脑同步阅读。</li></ul><h1 id="二、如何使用RSS"><a href="#二、如何使用RSS" class="headerlink" title="二、如何使用RSS"></a>二、如何使用RSS</h1><ol><li>选择 RSS 阅读器</li></ol><p>国内外都有很多 RSS 阅读器可选：</p><ul><li><strong>国外常用</strong>：<ul><li>Feedly（网页版、App）</li><li>Inoreader（网页版、App）</li><li>The Old Reader</li></ul></li><li><strong>国内常用</strong>：<ul><li>即刻（部分订阅功能）</li><li>网易云阅读</li><li>掌阅（部分订阅功能）</li></ul></li></ul><p>目前我用的是FeedFlow软件，在play商店下载的。</p><ol start="2"><li>获取 RSS 地址</li></ol><p>大部分博客或网站会提供 RSS 链接，一般格式为：</p><figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs dts"><span class="hljs-symbol">https:</span><span class="hljs-comment">//example.com/rss.xml</span><br>或<br><span class="hljs-symbol">https:</span><span class="hljs-comment">//example.com/feed/</span><br></code></pre></td></tr></table></figure><p>在我的博客内的关于界面你可以看到有RSS订阅选项，点击后你会进入到RSS链接页面，复制这个界面的链接，然后把他粘贴到你的软件内添加即可。<br>阅读器会自动抓取网站更新，并在有新内容时提醒你。</p><ul><li>大部分阅读器支持分类管理、标记已读、收藏或分享文章。</li><li>可以把工作相关的订阅放一类，把兴趣爱好放另一类，更高效地管理信息。</li></ul><h1 id="三、为什么使用RSS"><a href="#三、为什么使用RSS" class="headerlink" title="三、为什么使用RSS"></a>三、为什么使用RSS</h1><p>对于我这个博客来说，RSS是一个非常好的解决方案。这样就不用总是点开网站来看博主有没有更新了（<del>似乎网站点击量就少了</del>），一个更新缓慢的博客使用这个是最好不过了。因为我才刚开始搭建网站，我也是第一次认识到还有RSS这个东西，有什么错误的地方请指出，我会修改的。</p><h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><p><a href="https://baike.baidu.com/item/RSS/24470">百度百科</a><br><a href="https://zhuanlan.zhihu.com/p/349349861">知道RSS的人越少，我就越希望它能被人知道！</a><br><a href="https://sspai.com/post/56198">RSS - 高效率的阅读方式</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>相册功能出炉</title>
-      <link href="/2025/10/15/%E7%9B%B8%E5%86%8C%E5%8A%9F%E8%83%BD%E5%87%BA%E7%82%89/"/>
-      <url>/2025/10/15/%E7%9B%B8%E5%86%8C%E5%8A%9F%E8%83%BD%E5%87%BA%E7%82%89/</url>
+      <link href="/%E7%9B%B8%E5%86%8C%E5%8A%9F%E8%83%BD%E5%87%BA%E7%82%89/"/>
+      <url>/%E7%9B%B8%E5%86%8C%E5%8A%9F%E8%83%BD%E5%87%BA%E7%82%89/</url>
       
         <content type="html"><![CDATA[<p>这次我借助AI添加了一个相册界面。</p><p>按理说，好像只要建个文件夹、再在配置文件里加个路径就能搞定。但真正动手时，发现放图片展示这一块完全不懂要写在哪。后来问了 AI 才知道，要在 themes 文件夹里加上对应的 CSS 样式。跟着提示改了几行代码，居然一下子就做出了想要的展示界面。</p><p>现在，我终于能把生活里拍的照片都传上去了。看着页面上闪着光的小图们，美美收官 📸✨</p>]]></content>
       
@@ -24,8 +43,8 @@
     
     <entry>
       <title>多重梦境记录</title>
-      <link href="/2025/10/10/%E5%A4%9A%E9%87%8D%E6%A2%A6%E5%A2%83%E8%AE%B0%E5%BD%95/"/>
-      <url>/2025/10/10/%E5%A4%9A%E9%87%8D%E6%A2%A6%E5%A2%83%E8%AE%B0%E5%BD%95/</url>
+      <link href="/%E5%A4%9A%E9%87%8D%E6%A2%A6%E5%A2%83%E8%AE%B0%E5%BD%95/"/>
+      <url>/%E5%A4%9A%E9%87%8D%E6%A2%A6%E5%A2%83%E8%AE%B0%E5%BD%95/</url>
       
         <content type="html"><![CDATA[<p>今天中午午睡时，我做了一个奇怪的梦——准确来说，是三重梦境。</p><p>第一重梦开始于我刚入睡不久。突然，一股难以形容的感觉从身体深处涌了上来，我猛地一翻身，意识随即滑入梦境。梦里的我依然躺在宿舍的床上，周围的一切都和现实一样。直到我试着捏了捏鼻子——发现它竟然硬得捏不动——我才意识到：这在做梦。<br>我掀开窗帘，听见舍友们在外面说话。出于好奇，我想漂浮起来，看看床上是否还留着“我的身体”。似乎真的看见了，那身影模糊却又存在。正当我想靠近时，一股力量把我猛地拉了回去——那种感觉，就像被什么看不见的手抓住，拼命挣脱却无能为力。</p><p>第二重梦接踵而来。<br>我以为自己醒了，姿势恢复成最初入睡时的样子，于是心想：“那再睡一会儿，把梦续上吧。”<br>没多久，那股熟悉的“涌动感”又回来了，我再次翻身——这一次，我“滚”进了一间教室。老师正让我们看一部动画片。可不知为何，我感觉教室里有一个人让我异常在意。虽然我不认识Ta，但我强烈地“感应”到TA的存在，那种感觉夹杂着莫名的恐惧。</p><p>第三重梦则更像现实。<br>我再次以为自己醒了。舍友们正在准备去开会，我突然想到刚才梦中的教室，心想这是不是某种“预言梦”。我试着开口问他们，却发现他们根本听不见我的声音——好像我根本不存在。<br>他们走出了宿舍，只留下我一个人。四周的景象开始模糊，我心里一紧，下一秒，终于真的醒了。</p><p>现在想想还有点后怕……</p>]]></content>
       
@@ -43,8 +62,8 @@
     
     <entry>
       <title>为什么使用这个主题</title>
-      <link href="/2025/10/06/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8%E8%BF%99%E4%B8%AA%E4%B8%BB%E9%A2%98/"/>
-      <url>/2025/10/06/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8%E8%BF%99%E4%B8%AA%E4%B8%BB%E9%A2%98/</url>
+      <link href="/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8%E8%BF%99%E4%B8%AA%E4%B8%BB%E9%A2%98/"/>
+      <url>/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8%E8%BF%99%E4%B8%AA%E4%B8%BB%E9%A2%98/</url>
       
         <content type="html"><![CDATA[<p>本人相对来说更喜欢简约的博客主题，简单并且功能齐全，这样看着比较舒心，观感也好。这次我就总结说一下我的博客是怎么做成的吧，由于本人还是新手，有很多东西都不了解，如果文章中有任何错误，请指出来，我会积极学习改正的。</p><p>首先感谢国外大佬开发的hexo主题<a href="https://github.com/probberechts/hexo-theme-cactus?tab=readme-ov-file">Cactus</a>，我看中它的原因就是界面设置非常简洁，几乎没有任何多余的界面，麻雀虽小五脏俱全，很适合我这样专注于写作的博主了。</p><p>跟着github上的教程很快我就本地部署完成了，然后我就上传的自己的github仓库上搭建网站。跟着网上的教程也是简单易懂噢。</p><p>在测试工程中唯一让我耗费时间的是评论系统，Cactus主题自带的评论插件只有两个，一个是Disqus，一个是Utterances，Disqus链接的github仓库上的Discussions系统，但是没有回复功能，Utterances功能很齐全但是在国内被墙了看不到。所以我费尽心思寻找各种评论插件，有些还需要服务器做后端我就没用。最后找到了类似于Disqus的升级版gitcus，然后又遇到了很多麻烦，前面说过这个hexo主题只预装了两个评论系统，等于说自己还要在此基础上添加新的功能。对于刚接触这个的萌新的人来说可太麻烦了，看着自己根目录下的密密麻麻的文件夹不禁让我陷入了沉思，我先是问了一下gpt，用命令行在根目录下输入安装代码：<br><code>npm install giscus</code><br>安装后还需要去<a href="https://giscus.app/zh-CN">giscus官网</a>进行配置，获取如下代码：</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;module&quot;</span>&gt;</span><span class="language-javascript"></span><br><span class="language-javascript">  <span class="hljs-keyword">import</span> <span class="hljs-string">&#x27;giscus&#x27;</span>;</span><br><span class="language-javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span><br><br><span class="hljs-tag">&lt;<span class="hljs-name">giscus-widget</span></span><br><span class="hljs-tag">  <span class="hljs-attr">repo</span>=<span class="hljs-string">&quot;你的用户名/你的仓库名&quot;</span></span><br><span class="hljs-tag">  <span class="hljs-attr">repoid</span>=<span class="hljs-string">&quot;你的repoid&quot;</span></span><br><span class="hljs-tag">  <span class="hljs-attr">category</span>=<span class="hljs-string">&quot;你的分类名&quot;</span></span><br><span class="hljs-tag">  <span class="hljs-attr">categoryid</span>=<span class="hljs-string">&quot;你的categoryid&quot;</span></span><br><span class="hljs-tag">  <span class="hljs-attr">mapping</span>=<span class="hljs-string">&quot;pathname&quot;</span></span><br><span class="hljs-tag">  <span class="hljs-attr">reactionsenabled</span>=<span class="hljs-string">&quot;1&quot;</span></span><br><span class="hljs-tag">  <span class="hljs-attr">emitmetadata</span>=<span class="hljs-string">&quot;0&quot;</span></span><br><span class="hljs-tag">  <span class="hljs-attr">inputposition</span>=<span class="hljs-string">&quot;bottom&quot;</span></span><br><span class="hljs-tag">  <span class="hljs-attr">theme</span>=<span class="hljs-string">&quot;light&quot;</span></span><br><span class="hljs-tag">  <span class="hljs-attr">lang</span>=<span class="hljs-string">&quot;zh-CN&quot;</span></span><br><span class="hljs-tag">  <span class="hljs-attr">loading</span>=<span class="hljs-string">&quot;lazy&quot;</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">giscus-widget</span>&gt;</span><br></code></pre></td></tr></table></figure><p>最开始我以为是要在根目录下的配置文件进行配置的，但启动时发现没有反应，问ai说是需要更改预制的文件，就是ejs文件。顺藤摸瓜我就找到了用于渲染评论区的ejs文件，然后把上面的内容粘贴进去果然就成功实现了。<br>总算解决了评论后回复功能的问题，而且还支持输出markdown格式和图片（好像感觉用不着这么费心，毕竟也没有人看&gt; _ &lt;）, 总之这就是我全部的工作了，也在此记录一下我的心路历程。 </p>]]></content>
       
@@ -62,8 +81,8 @@
     
     <entry>
       <title>第一篇文章</title>
-      <link href="/2025/10/04/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2025/10/04/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      <link href="/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
       
         <content type="html"><![CDATA[<p>大概就这样了，目前我的网站已经调试得差不多了，主要功能都有了，终于可以开始写博客了。<br>就以这篇文章的发布作为一个好的开始吧！我也不知道这个网站最后能够坚持多久，希望我能一直保持这个干劲吧。</p>]]></content>
       

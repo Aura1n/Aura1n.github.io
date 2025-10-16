@@ -9,7 +9,7 @@
     <meta name="description" content="一个用来记录成长与瞬间的个人博客网站">
 <meta property="og:type" content="website">
 <meta property="og:title" content="星辉笔记">
-<meta property="og:url" content="https://aura1n.github.io/404.html">
+<meta property="og:url" content="https://aura1n.github.io/404">
 <meta property="og:site_name" content="星辉笔记">
 <meta property="og:description" content="一个用来记录成长与瞬间的个人博客网站">
 <meta property="og:locale" content="zh_CN">
@@ -140,28 +140,9 @@
      --><!--
        --><li><a href="/search/">搜索</a></li><!--
      -->
-        <a href="/atom.xml" target="_blank">RSS 订阅</a>
       </ul>
     </nav>
   </div>
-
-  <div id="site-runtime">网站已运行：计算中...</div>
-  <script>
-    const startTime = new Date('2025-01-01T00:00:00'); // 网站上线时间
-    const now = new Date();
-
-    let totalMonths = (now.getFullYear() - startTime.getFullYear()) * 12 + (now.getMonth() - startTime.getMonth());
-    let years = Math.floor(totalMonths / 12);
-    let months = totalMonths % 12;
-
-    // 计算天数差
-    const startDay = new Date(startTime.getFullYear() + years, startTime.getMonth() + months, startTime.getDate());
-    const diffTime = now - startDay;
-    const days = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-
-    document.getElementById('site-runtime').textContent =
-      `网站已运行：${years}年 ${months}月 ${days}天`;
-  </script>
 
 </footer>
 
