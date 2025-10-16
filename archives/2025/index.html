@@ -243,6 +243,25 @@
       </ul>
     </nav>
   </div>
+
+  <div id="site-runtime">网站已运行：计算中...</div>
+  <script>
+    const startTime = new Date('2025-01-01T00:00:00'); // 网站上线时间
+    const now = new Date();
+
+    let totalMonths = (now.getFullYear() - startTime.getFullYear()) * 12 + (now.getMonth() - startTime.getMonth());
+    let years = Math.floor(totalMonths / 12);
+    let months = totalMonths % 12;
+
+    // 计算天数差
+    const startDay = new Date(startTime.getFullYear() + years, startTime.getMonth() + months, startTime.getDate());
+    const diffTime = now - startDay;
+    const days = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+    document.getElementById('site-runtime').textContent =
+      `网站已运行：${years}年 ${months}月 ${days}天`;
+  </script>
+
 </footer>
 
     </div>
