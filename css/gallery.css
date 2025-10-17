@@ -1,33 +1,38 @@
+/* 相册网格布局 */
 .gallery-grid {
-  column-count: 2;        /* 两列 */
-  column-gap: 1rem;       /* 列间距 */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 20px;
 }
 
+/* 每个图片块 */
 .gallery-item {
-  display: inline-block;
-  width: 100%;
-  margin-bottom: 1rem;
+  overflow: hidden;
+  border-radius: 8px;
+  display: block;
+  position: relative;
 }
 
+/* 图片样式 + 懒加载动画 */
 .gallery-item img {
   width: 100%;
   height: auto;
+  display: block;
   border-radius: 8px;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  transition: transform 0.3s ease, opacity 0.5s ease;
+  opacity: 0;
+  transform: translateY(20px);
   cursor: zoom-in;
 }
 
-.gallery-item img:hover {
-  transform: scale(1.03);
-  opacity: 0.9;
-}
-
-/*图片懒加载*/
-.lazyload {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.lazyload.loaded {
+/* 图片加载完成后淡入 */
+.gallery-item img.loaded {
   opacity: 1;
+  transform: translateY(0);
+}
+
+/* hover 放大效果 */
+.gallery-item:hover img {
+  transform: scale(1.05);
 }
