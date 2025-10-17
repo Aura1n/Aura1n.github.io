@@ -439,26 +439,6 @@ body td {
   font-family: "Meslo LG";
   src: local("Meslo LG S"), url("../lib/meslo-LG/MesloLGS-Regular.ttf") format("truetype");
 }
-.gallery-grid {
-  column-count: 2;
-  column-gap: 1rem;
-}
-.gallery-item {
-  display: inline-block;
-  width: 100%;
-  margin-bottom: 1rem;
-}
-.gallery-item img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  cursor: zoom-in;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-.gallery-item img:hover {
-  transform: scale(1.03);
-  opacity: 0.9;
-}
 *,
 *:before,
 *:after {
@@ -1683,3 +1663,28 @@ code {
 #header-post #actions {
   direction: ltr !important;
 }
+.gallery-container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: zoom-in;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
