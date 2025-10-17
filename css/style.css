@@ -439,45 +439,26 @@ body td {
   font-family: "Meslo LG";
   src: local("Meslo LG S"), url("../lib/meslo-LG/MesloLGS-Regular.ttf") format("truetype");
 }
-/* 相册网格布局 */
 .gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 12px;
-  margin-top: 20px;
+  column-count: 2;
+  column-gap: 1rem;
 }
-
-/* 每个图片块 */
 .gallery-item {
-  overflow: hidden;
-  border-radius: 8px;
-  display: block;
-  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1rem;
 }
-
-/* 图片样式 + 懒加载动画 */
 .gallery-item img {
   width: 100%;
   height: auto;
-  display: block;
   border-radius: 8px;
-  transition: transform 0.3s ease, opacity 0.5s ease;
-  opacity: 0;
-  transform: translateY(20px);
   cursor: zoom-in;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
-
-/* 图片加载完成后淡入 */
-.gallery-item img.loaded {
-  opacity: 1;
-  transform: translateY(0);
+.gallery-item img:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
 }
-
-/* hover 放大效果 */
-.gallery-item:hover img {
-  transform: scale(1.05);
-}
-
 *,
 *:before,
 *:after {
