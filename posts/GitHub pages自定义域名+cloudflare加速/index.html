@@ -9,24 +9,24 @@
     <meta name="description" content="前言之前我在github上搭建了自己的博客项目，通过github page成功上线。当时我的域名就是gethub page的默认域名： 1https:&#x2F;&#x2F;你的用户名.github.io&#x2F;你的项目名&#x2F; 在国内访问加载速度有些慢，于是我找了找网上的教程学习该如何加速访问，提高速度。 本期内容✅ 使用腾讯云注册域名并在github上配置✅ 使用 Cloudflare CDN 加速✅ 更改DNS服务器至c">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何配置github解析自己的域名">
-<meta property="og:url" content="https://aura1n.github.io/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/index.html">
+<meta property="og:url" content="https://startea.xyz/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/index.html">
 <meta property="og:site_name" content="星茶会">
 <meta property="og:description" content="前言之前我在github上搭建了自己的博客项目，通过github page成功上线。当时我的域名就是gethub page的默认域名： 1https:&#x2F;&#x2F;你的用户名.github.io&#x2F;你的项目名&#x2F; 在国内访问加载速度有些慢，于是我找了找网上的教程学习该如何加速访问，提高速度。 本期内容✅ 使用腾讯云注册域名并在github上配置✅ 使用 Cloudflare CDN 加速✅ 更改DNS服务器至c">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://aura1n.github.io/images/photos/1018/ph1.png">
-<meta property="og:image" content="https://aura1n.github.io/images/photos/1018/ph2.png">
-<meta property="og:image" content="https://aura1n.github.io/images/photos/1018/ph3.png">
-<meta property="og:image" content="https://aura1n.github.io/images/photos/1018/ph4.png">
-<meta property="og:image" content="https://aura1n.github.io/images/photos/1018/ph5.png">
-<meta property="og:image" content="https://aura1n.github.io/images/photos/1018/ph6.png">
-<meta property="og:image" content="https://aura1n.github.io/images/photos/1018/ph7.png">
-<meta property="og:image" content="https://aura1n.github.io/images/photos/1018/ph8.png">
+<meta property="og:image" content="https://startea.xyz/images/photos/1018/ph1.png">
+<meta property="og:image" content="https://startea.xyz/images/photos/1018/ph2.png">
+<meta property="og:image" content="https://startea.xyz/images/photos/1018/ph3.png">
+<meta property="og:image" content="https://startea.xyz/images/photos/1018/ph4.png">
+<meta property="og:image" content="https://startea.xyz/images/photos/1018/ph5.png">
+<meta property="og:image" content="https://startea.xyz/images/photos/1018/ph6.png">
+<meta property="og:image" content="https://startea.xyz/images/photos/1018/ph7.png">
+<meta property="og:image" content="https://startea.xyz/images/photos/1018/ph8.png">
 <meta property="article:published_time" content="2025-10-17T16:00:00.000Z">
 <meta property="article:modified_time" content="2025-10-18T14:09:53.520Z">
 <meta property="article:author" content="小豆芽">
 <meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://aura1n.github.io/images/photos/1018/ph1.png">
+<meta name="twitter:image" content="https://startea.xyz/images/photos/1018/ph1.png">
     
     
       
@@ -121,11 +121,11 @@
     <div id="share" style="display: none">
       <ul>
   <!-- 国内分享 -->
-  <li><a class="icon" href="https://service.weibo.com/share/share.php?url=https://aura1n.github.io/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/&title=如何配置github解析自己的域名" target="_blank"><i class="fab fa-weibo "></i></a></li>
-  <li><a class="icon" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://aura1n.github.io/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/&title=如何配置github解析自己的域名" target="_blank"><i class="fa-brands fa-qq "></i></a></li>
+  <li><a class="icon" href="https://service.weibo.com/share/share.php?url=https://startea.xyz/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/&title=如何配置github解析自己的域名" target="_blank"><i class="fab fa-weibo "></i></a></li>
+  <li><a class="icon" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://startea.xyz/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/&title=如何配置github解析自己的域名" target="_blank"><i class="fa-brands fa-qq "></i></a></li>
   <!-- 国外分享 -->
-  <li><a class="icon" href="https://twitter.com/share?url=https://aura1n.github.io/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/&text=如何配置github解析自己的域名" target="_blank"><i class="fab fa-twitter "></i></a></li>
-  <li><a class="icon" href="https://www.facebook.com/sharer.php?u=https://aura1n.github.io/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/" target="_blank"><i class="fab fa-facebook "></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://startea.xyz/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/&text=如何配置github解析自己的域名" target="_blank"><i class="fab fa-twitter "></i></a></li>
+  <li><a class="icon" href="https://www.facebook.com/sharer.php?u=https://startea.xyz/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/" target="_blank"><i class="fab fa-facebook "></i></a></li>
 </ul>
 
     </div>
@@ -183,24 +183,24 @@
     <meta name="description" content="前言之前我在github上搭建了自己的博客项目，通过github page成功上线。当时我的域名就是gethub page的默认域名： 1https:&#x2F;&#x2F;你的用户名.github.io&#x2F;你的项目名&#x2F; 在国内访问加载速度有些慢，于是我找了找网上的教程学习该如何加速访问，提高速度。 本期内容✅ 使用腾讯云注册域名并在github上配置✅ 使用 Cloudflare CDN 加速✅ 更改DNS服务器至c">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何配置github解析自己的域名">
-<meta property="og:url" content="https://aura1n.github.io/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/index.html">
+<meta property="og:url" content="https://startea.xyz/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/index.html">
 <meta property="og:site_name" content="星茶会">
 <meta property="og:description" content="前言之前我在github上搭建了自己的博客项目，通过github page成功上线。当时我的域名就是gethub page的默认域名： 1https:&#x2F;&#x2F;你的用户名.github.io&#x2F;你的项目名&#x2F; 在国内访问加载速度有些慢，于是我找了找网上的教程学习该如何加速访问，提高速度。 本期内容✅ 使用腾讯云注册域名并在github上配置✅ 使用 Cloudflare CDN 加速✅ 更改DNS服务器至c">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://aura1n.github.io/images/photos/1018/ph1.png">
-<meta property="og:image" content="https://aura1n.github.io/images/photos/1018/ph2.png">
-<meta property="og:image" content="https://aura1n.github.io/images/photos/1018/ph3.png">
-<meta property="og:image" content="https://aura1n.github.io/images/photos/1018/ph4.png">
-<meta property="og:image" content="https://aura1n.github.io/images/photos/1018/ph5.png">
-<meta property="og:image" content="https://aura1n.github.io/images/photos/1018/ph6.png">
-<meta property="og:image" content="https://aura1n.github.io/images/photos/1018/ph7.png">
-<meta property="og:image" content="https://aura1n.github.io/images/photos/1018/ph8.png">
+<meta property="og:image" content="https://startea.xyz/images/photos/1018/ph1.png">
+<meta property="og:image" content="https://startea.xyz/images/photos/1018/ph2.png">
+<meta property="og:image" content="https://startea.xyz/images/photos/1018/ph3.png">
+<meta property="og:image" content="https://startea.xyz/images/photos/1018/ph4.png">
+<meta property="og:image" content="https://startea.xyz/images/photos/1018/ph5.png">
+<meta property="og:image" content="https://startea.xyz/images/photos/1018/ph6.png">
+<meta property="og:image" content="https://startea.xyz/images/photos/1018/ph7.png">
+<meta property="og:image" content="https://startea.xyz/images/photos/1018/ph8.png">
 <meta property="article:published_time" content="2025-10-17T16:00:00.000Z">
 <meta property="article:modified_time" content="2025-10-18T14:09:53.520Z">
 <meta property="article:author" content="小豆芽">
 <meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://aura1n.github.io/images/photos/1018/ph1.png">
+<meta name="twitter:image" content="https://startea.xyz/images/photos/1018/ph1.png">
     
     
       
@@ -365,11 +365,11 @@
     <div id="share-footer" style="display: none">
       <ul>
   <!-- 国内分享 -->
-  <li><a class="icon" href="https://service.weibo.com/share/share.php?url=https://aura1n.github.io/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/&title=如何配置github解析自己的域名" target="_blank"><i class="fab fa-weibo fa-lg"></i></a></li>
-  <li><a class="icon" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://aura1n.github.io/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/&title=如何配置github解析自己的域名" target="_blank"><i class="fa-brands fa-qq fa-lg"></i></a></li>
+  <li><a class="icon" href="https://service.weibo.com/share/share.php?url=https://startea.xyz/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/&title=如何配置github解析自己的域名" target="_blank"><i class="fab fa-weibo fa-lg"></i></a></li>
+  <li><a class="icon" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://startea.xyz/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/&title=如何配置github解析自己的域名" target="_blank"><i class="fa-brands fa-qq fa-lg"></i></a></li>
   <!-- 国外分享 -->
-  <li><a class="icon" href="https://twitter.com/share?url=https://aura1n.github.io/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/&text=如何配置github解析自己的域名" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
-  <li><a class="icon" href="https://www.facebook.com/sharer.php?u=https://aura1n.github.io/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/" target="_blank"><i class="fab fa-facebook fa-lg"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://startea.xyz/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/&text=如何配置github解析自己的域名" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
+  <li><a class="icon" href="https://www.facebook.com/sharer.php?u=https://startea.xyz/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/" target="_blank"><i class="fab fa-facebook fa-lg"></i></a></li>
 </ul>
 
     </div>
