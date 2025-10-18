@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>如何配置github解析自己的域名</title>
+      <link href="/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/"/>
+      <url>/posts/GitHub%20pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D+cloudflare%E5%8A%A0%E9%80%9F/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>之前我在github上搭建了自己的博客项目，通过github page成功上线。当时我的域名就是gethub page的默认域名：</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">https:<span class="hljs-regexp">//</span>你的用户名.github.io<span class="hljs-regexp">/你的项目名/</span><br></code></pre></td></tr></table></figure><p>在国内访问加载速度有些慢，于是我找了找网上的教程学习该如何加速访问，提高速度。</p><h1 id="本期内容"><a href="#本期内容" class="headerlink" title="本期内容"></a>本期内容</h1><p>✅ 使用腾讯云注册域名并在github上配置<br>✅ 使用 Cloudflare CDN 加速<br>✅ 更改DNS服务器至cloudflare</p><h1 id="自定义域名"><a href="#自定义域名" class="headerlink" title="自定义域名"></a>自定义域名</h1><ol><li>域名注册<br>进入<a href="https://cloud.tencent.com/">腾讯云官网</a>，登录后找到域名注册然后去找自己心仪的域名购买就好，注意要提前实名才可以购买。<br><img src="/images/photos/1018/ph1.png" alt="描述文字"></li><li>GitHub pages绑定自定义域名<br>现在可以到GitHub去绑定自己的域名，像下面这样。<br><img src="/images/photos/1018/ph2.png" alt="描述文字"><br>选择保存后可能会有下面的提示：<br><img src="/images/photos/1018/ph3.png" alt="描述文字"><br>这是因为还没有进行域名解析，所以我们可以回到腾讯域名管理那里，去进行域名的解析，从而通过域名正常访问对应的服务器。</li><li>域名解析<br>进入<a href="https://console.dnspod.cn/dns/list">腾讯云控制台</a>，在这个界面里可以选择你的域名，DNS解析&gt;我的域名，然后选择快速添加解析，如下图所示：<br><img src="/images/photos/1018/ph4.png" alt="描述文字"><br><img src="/images/photos/1018/ph5.png" alt="描述文字"><br>选择网站解析&gt;域名映射，然后填写你的GitHub pages的默认域名(用户名.github.io)，最后点击确认就可以自动完成解析了。</li></ol><p>完成以上的步骤后，就已经可以通过你自己的域名去访问你的静态网站了，不过此时还只能使用http进行访问，还不能够通过https进行访问，我们在完成cloudflare的CDN加速的步骤中就可以完成https的设置。</p><h1 id="cloudflare进行CDN加速"><a href="#cloudflare进行CDN加速" class="headerlink" title="cloudflare进行CDN加速"></a>cloudflare进行CDN加速</h1><ol><li>注册cloudflare账号<br>在<a href="https://dash.cloudflare.com/sign-up">cloudflare官网</a>进行账号注册或登录<br>然后就会马上出现一个输入你自己域名的界面，输入完成域名后就会看到一个选择计划的界面，选择免费版本。</li><li>域名解析<br>然后会到下面这样的界面，会让你添加DNS记录：<br><img src="/images/photos/1018/ph6.png" alt="描述文字"><br>这里都选择A类型，这里的名称一个是www，另一个是自己的域名。中间填写服务器的ip，因为我们的网站是在github上托管，所以我们要输入GitHub的那个域名，下面任意一条即可：</li></ol><figure class="highlight accesslog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs accesslog"><span class="hljs-number">185.199.108.153</span><br><span class="hljs-number">185.199.109.153</span><br><span class="hljs-number">185.199.110.153</span><br><span class="hljs-number">185.199.111.153</span><br></code></pre></td></tr></table></figure><ol start="3"><li>更改DNS服务器至cloudflare<br>随后我们会看到cloudflare给出的两个dns服务器<br><img src="/images/photos/1018/ph7.png" alt="描述文字"><br>这里就需要回到腾讯云，将原来的DNS服务器（指向DNSPOD的）改为cloudflare的。<br>进入你的域名管理，如下图：<br><img src="/images/photos/1018/ph8.png" alt="描述文字"><br>至此，就完成了cloudflare的绑定，后面cloudflare就会提示你要不要使用ssl证书，开启http跳转https，直接按照提示做就行。</li></ol><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>这次域名解析花了我不少时间，一边看教程一边做的，虽说不是太难，但主要第一次做还是不太熟练。总结一下我的网站的发布过程吧，首先是使用hexo主题搭建网站然后部署到github上，然后又买了自己的域名，再想着让人们从搜索引擎上可以看到我的博客，我又登录必应站长平台发布了我的网站（为什么不是百度或者其他，原因是必应比较简单并且是我一直在用的。）所以又搞了网站地图这些乱七八糟的。总归来说，还是坚持下来了。</p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://www.cnblogs.com/yuelblog/p/15829774.html">GitHub pages+自定义域名(腾讯云域名)+cloudflare加速</a><br><a href="https://monkeywie.cn/2020/08/20/fast-github-page-with-cloudflare/">使用cloudflare免费加速github page</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>什么是RSS订阅</title>
       <link href="/posts/%E4%BB%80%E4%B9%88%E6%98%AFRSS%E8%AE%A2%E9%98%85/"/>
       <url>/posts/%E4%BB%80%E4%B9%88%E6%98%AFRSS%E8%AE%A2%E9%98%85/</url>
