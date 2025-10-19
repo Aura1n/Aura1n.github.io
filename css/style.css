@@ -439,6 +439,27 @@ body td {
   font-family: "Meslo LG";
   src: local("Meslo LG S"), url("../lib/meslo-LG/MesloLGS-Regular.ttf") format("truetype");
 }
+.tag-cloud {
+  margin-top: 3rem;
+  text-align: center;
+}
+.tag-cloud h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.tag-cloud a {
+  display: inline-block;
+  margin: 0.25rem 0.5rem;
+  text-decoration: none;
+  color: #ccc;
+  transition: all 0.3s ease;
+}
+.tag-cloud a:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
 *,
 *:before,
 *:after {
