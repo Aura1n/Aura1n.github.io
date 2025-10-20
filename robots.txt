@@ -1,0 +1,7 @@
+# 允许所有搜索引擎访问
+User-agent: *
+Allow: /
+
+# 网站地图（用于爬虫快速索引）
+Sitemap: https://startea.xyz/sitemap.xml
+Sitemap: https://startea.xyz/BingSiteAuth.xml
