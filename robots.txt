@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://startea.xyz/sitemap.xml
+Sitemap: https://startea.xyz/baidusitemap.xml
