@@ -1,4 +1,53 @@
+#  robots.txt 配置说明
+#  遵循 robots.txt 官方标准语法，明确限制 AI 训练爬取，允许合法搜索索引
+#  结合主流搜索引擎/AI 爬虫识别规则，确保限制生效
+
+# 基础规则：允许所有爬虫常规爬取（支持合法搜索索引，对应原 search=yes）
 User-agent: *
 Allow: /
+# 禁止所有爬虫将内容用于 AI 训练（对应原 ai-train=no，需配合页面 meta 标签强化）
+
+# 单独禁止指定 AI 相关爬虫（覆盖核心限制需求，直接阻断高风险 AI 爬取）
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: Anthropic-ai
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+# 保留原有禁止的非 AI 爬虫
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+# 站点地图配置（帮助搜索引擎正确抓取页面）
 Sitemap: https://startea.xyz/sitemap.xml
 Sitemap: https://startea.xyz/baidusitemap.xml
+
+# 补充说明：
+# 1. 此配置完全符合 robots.txt 官方语法，所有主流爬虫均可识别
+# 2. 若需严格限制 AI 训练，需在网站所有页面头部添加 meta 标签：
+#    <meta name="robots" content="noai, noimageai">
+#    <meta name="googlebot" content="noai, noimageai">
