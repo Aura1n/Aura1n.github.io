@@ -312,6 +312,11 @@
 
   <footer>
     <div class="footer-inner">
+  <!-- 🕒 网站运行时间（放在最前） -->
+  <div id="site-runtime" style="text-align:center; margin-bottom:10px; color:var(--color-text-secondary); font-size:0.9em;">
+    🕒 本站已运行 <span id="time-run"></span>
+  </div>
+
   
     <div class="footer-content">
        <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
@@ -320,6 +325,29 @@
   
   
 </div>
+
+<script>
+  // 建站日期（修改为你的网站上线时间）
+  const startTime = new Date("2025-10-10T00:00:00");
+
+  function updateRuntime() {
+    const now = new Date();
+    let diff = Math.floor((now - startTime) / 1000);
+
+    const days = Math.floor(diff / (24 * 3600));
+    diff %= 24 * 3600;
+    const hours = Math.floor(diff / 3600);
+    diff %= 3600;
+    const minutes = Math.floor(diff / 60);
+    const seconds = diff % 60;
+
+    document.getElementById("time-run").textContent =
+      `${days} 天 ${hours} 时 ${minutes} 分 ${seconds} 秒`;
+  }
+
+  updateRuntime();
+  setInterval(updateRuntime, 1000);
+</script>
 
   </footer>
 
