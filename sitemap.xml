@@ -85,36 +85,36 @@
 
   <url>
     <loc>https://startea.xyz/</loc>
-    <lastmod>2025-11-08</lastmod>
+    <lastmod>2025-11-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://startea.xyz/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2025-11-08</lastmod>
+    <loc>https://startea.xyz/tags/%E6%A2%A6%E6%B8%B8%E8%AE%B0/</loc>
+    <lastmod>2025-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://startea.xyz/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2025-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://startea.xyz/tags/%E6%A2%A6%E6%B8%B8%E8%AE%B0/</loc>
-    <lastmod>2025-11-08</lastmod>
+    <lastmod>2025-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://startea.xyz/tags/%E6%80%9D%E8%80%83/</loc>
-    <lastmod>2025-11-08</lastmod>
+    <lastmod>2025-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://startea.xyz/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2025-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -122,22 +122,22 @@
 
   
   <url>
-    <loc>https://startea.xyz/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2025-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://startea.xyz/categories/%E6%A2%A6%E6%B8%B8%E8%AE%B0/</loc>
-    <lastmod>2025-11-08</lastmod>
+    <lastmod>2025-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://startea.xyz/categories/%E5%9B%B4%E7%82%89%E5%A4%9C%E8%AF%9D/</loc>
-    <lastmod>2025-11-08</lastmod>
+    <lastmod>2025-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://startea.xyz/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/</loc>
+    <lastmod>2025-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

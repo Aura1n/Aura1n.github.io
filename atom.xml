@@ -36,9 +36,9 @@
     <category term="生活日常" scheme="https://startea.xyz/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="生活" scheme="https://startea.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
-    
     <category term="博客" scheme="https://startea.xyz/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="生活" scheme="https://startea.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
