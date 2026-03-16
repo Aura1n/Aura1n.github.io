@@ -1,0 +1,8 @@
+User-agent: Baiduspider
+
+Sitemap: https://startea.xyz/baidusitemap.xml
+
+User-agent: *
+Disallow:
+
+Sitemap: https://startea.xyz/sitemap.xml
