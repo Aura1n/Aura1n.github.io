@@ -186,7 +186,7 @@
     if(!countELement) return
     twikoo.getCommentsCount({
       envId: 'https://startea.xyz/',
-      region: '',
+      region: 'ap-shanghai',
       urls: [window.location.pathname],
       includeReply: false
     }).then(res => {
@@ -200,7 +200,7 @@
     twikoo.init({
       el: el.querySelector('#twikoo-wrap'),
       envId: 'https://startea.xyz/',
-      region: '',
+      region: 'ap-shanghai',
       onCommentLoaded: () => {
         btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
       },
