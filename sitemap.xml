@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://startea.xyz/posts/3118386243/</loc>
+    
+    <lastmod>2026-04-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://startea.xyz/Gallery/anything/index.html</loc>
     
     <lastmod>2026-03-31</lastmod>
@@ -157,7 +166,7 @@
 
   <url>
     <loc>https://startea.xyz/</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -165,56 +174,63 @@
   
   <url>
     <loc>https://startea.xyz/tags/%E6%A2%A6%E6%B8%B8%E8%AE%B0/</loc>
-    <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://startea.xyz/tags/%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://startea.xyz/tags/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://startea.xyz/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://startea.xyz/tags/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2026-03-31</lastmod>
+    <loc>https://startea.xyz/tags/%E6%97%A5%E5%B8%B8/</loc>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://startea.xyz/tags/%E8%B5%B6%E9%9B%86/</loc>
-    <lastmod>2026-03-31</lastmod>
+    <loc>https://startea.xyz/tags/%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://startea.xyz/tags/%E6%81%90%E6%80%96/</loc>
-    <lastmod>2026-03-31</lastmod>
+    <loc>https://startea.xyz/tags/%E6%91%84%E5%BD%B1/</loc>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://startea.xyz/tags/%E7%A5%9E%E5%A5%87/</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://startea.xyz/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://startea.xyz/tags/%E8%B5%B6%E9%9B%86/</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://startea.xyz/tags/%E6%81%90%E6%80%96/</loc>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -223,21 +239,28 @@
   
   <url>
     <loc>https://startea.xyz/categories/%E6%A2%A6%E6%B8%B8%E8%AE%B0/</loc>
-    <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://startea.xyz/categories/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://startea.xyz/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://startea.xyz/categories/%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://startea.xyz/categories/%E6%91%84%E5%BD%B1/</loc>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
