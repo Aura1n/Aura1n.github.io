@@ -207,7 +207,7 @@
   </url>
   
   <url>
-    <loc>https://startea.xyz/tags/%E9%9F%B3%E4%B9%90/</loc>
+    <loc>https://startea.xyz/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -221,14 +221,7 @@
   </url>
   
   <url>
-    <loc>https://startea.xyz/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://startea.xyz/tags/%E7%A5%9E%E5%A5%87/</loc>
+    <loc>https://startea.xyz/tags/%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -263,6 +256,13 @@
   </url>
   
   <url>
+    <loc>https://startea.xyz/tags/%E7%A5%9E%E5%A5%87/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://startea.xyz/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -279,14 +279,14 @@
   </url>
   
   <url>
-    <loc>https://startea.xyz/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://startea.xyz/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://startea.xyz/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://startea.xyz/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
