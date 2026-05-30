@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://startea.xyz/posts/836491635/</loc>
+    <loc>https://startea.xyz/music/index.html</loc>
     
     <lastmod>2026-05-30</lastmod>
     
@@ -11,9 +11,9 @@
   </url>
   
   <url>
-    <loc>https://startea.xyz/music/index.html</loc>
+    <loc>https://startea.xyz/posts/836491635/</loc>
     
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -200,14 +200,14 @@
 
   
   <url>
-    <loc>https://startea.xyz/tags/%E6%A2%A6%E6%B8%B8%E8%AE%B0/</loc>
+    <loc>https://startea.xyz/tags/%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://startea.xyz/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
+    <loc>https://startea.xyz/tags/%E6%A2%A6%E6%B8%B8%E8%AE%B0/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -221,7 +221,7 @@
   </url>
   
   <url>
-    <loc>https://startea.xyz/tags/%E9%9F%B3%E4%B9%90/</loc>
+    <loc>https://startea.xyz/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -235,7 +235,7 @@
   </url>
   
   <url>
-    <loc>https://startea.xyz/tags/%E6%91%84%E5%BD%B1/</loc>
+    <loc>https://startea.xyz/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -256,20 +256,27 @@
   </url>
   
   <url>
-    <loc>https://startea.xyz/tags/%E7%A5%9E%E5%A5%87/</loc>
+    <loc>https://startea.xyz/tags/%E6%91%84%E5%BD%B1/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://startea.xyz/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://startea.xyz/tags/%E7%A5%9E%E5%A5%87/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://startea.xyz/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://startea.xyz/categories/%E6%A2%A6%E6%B8%B8%E8%AE%B0/</loc>
@@ -280,13 +287,6 @@
   
   <url>
     <loc>https://startea.xyz/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://startea.xyz/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
