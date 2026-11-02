@@ -47,15 +47,6 @@
   </url>
   
   <url>
-    <loc>https://aura1n.github.io/solresol/index.html</loc>
-    
-    <lastmod>2026-10-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://aura1n.github.io/music/index.html</loc>
     
     <lastmod>2026-10-24</lastmod>
@@ -243,14 +234,14 @@
   </url>
   
   <url>
-    <loc>https://aura1n.github.io/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
+    <loc>https://aura1n.github.io/tags/%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://aura1n.github.io/tags/%E9%9F%B3%E4%B9%90/</loc>
+    <loc>https://aura1n.github.io/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -271,14 +262,21 @@
   </url>
   
   <url>
-    <loc>https://aura1n.github.io/tags/%E6%91%84%E5%BD%B1/</loc>
+    <loc>https://aura1n.github.io/tags/%E8%B5%B6%E9%9B%86/</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://aura1n.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://aura1n.github.io/tags/%E6%81%90%E6%80%96/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://aura1n.github.io/tags/%E6%91%84%E5%BD%B1/</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -292,14 +290,7 @@
   </url>
   
   <url>
-    <loc>https://aura1n.github.io/tags/%E8%B5%B6%E9%9B%86/</loc>
-    <lastmod>2026-11-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://aura1n.github.io/tags/%E6%81%90%E6%80%96/</loc>
+    <loc>https://aura1n.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -315,14 +306,14 @@
   </url>
   
   <url>
-    <loc>https://aura1n.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://aura1n.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://aura1n.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://aura1n.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
