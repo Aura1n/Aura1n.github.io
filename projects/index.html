@@ -153,13 +153,56 @@
 <section class="projects-page" aria-label="项目列表">
     <div class="projects-toolbar">
       <span>全部项目</span>
-      <span>共 2 个</span>
+      <span>共 3 个</span>
     </div>
     <div class="projects-list"><article class="project-card">
     <div class="project-card__media">
-      <div class="project-card__shot"><img src="/img/projects/dymail.png" alt="Dymail 三栏邮件界面" loading="lazy" decoding="async"></div>
+      <div class="project-card__shot"><img src="/img/projects/sfxer.png" alt="sfxer 三栏音效库界面" loading="lazy" decoding="async"></div>
       <span class="project-card__caption">界面预览</span>
       <span class="project-card__number" aria-hidden="true">01</span>
+    </div>
+    <div class="project-card__body">
+      <header class="project-card__header">
+        <div class="project-card__heading">
+          <p class="project-card__subtitle">本地音效素材库管理器</p>
+          <h2 class="project-card__title">sfxer</h2>
+        </div>
+        <span class="project-status is-beta"><span class="project-status__dot" aria-hidden="true"></span>公测</span>
+      </header>
+      <p class="project-card__meta">v0.9.1<span aria-hidden="true">/</span>更新于 2026-11-03</p>
+      <p class="project-card__summary">一款 Windows 本地音效素材库管理器，把散落在各个文件夹里的音频收进一个可搜索的库，用标签、备注和评分组织，不移动也不改写原始文件。</p>
+      <div class="project-card__description"><p>递归扫描添加的文件夹，任意深度，支持 mp3 / wav / flac / ogg / opus / m4a / aif / caf / wma / ape 等二十余种格式，自动解析时长、采样率、位深、声道、格式与峰值电平。</p><p>搜索名称、显示名、标签与备注，按格式、时长、采样率、声道、评分星级筛选；标签可重命名、选颜色，支持批量打标与整理模式逐条连续打标。底部播放条带波形拖动定位、音量与三种循环方式，当前筛选列表就是播放队列。</p><p>标签、备注、显示名、评分与波形峰值只写入本机 SQLite 数据库，程序只读取音频文件，从不写入、改名、移动或删除它们；标签与备注可导出为 JSON，换机后导入合并。</p></div>
+      <ul class="project-tags" aria-label="项目标签"><li>Tauri</li><li>Rust</li><li>音效管理</li><li>音频工具</li><li>标签</li><li>Windows</li><li>桌面应用</li><li>开源</li></ul>
+      <div class="project-downloads">
+        <p class="project-downloads__label">下载 / Download</p>
+        <div class="project-downloads__items"><div class="project-download">
+    <a class="project-download__link is-github" href="https://github.com/Aura1n/sfxer/releases/latest" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-github project-download__icon" aria-hidden="true"></i>
+      <span class="project-download__copy">
+        <strong>GitHub Releases</strong>
+        <small>v0.9.1 · Windows x64 安装版 / 便携版</small>
+      </span>
+      <i class="fas fa-arrow-right project-download__arrow" aria-hidden="true"></i>
+    </a>
+    
+  </div><div class="project-download">
+    <a class="project-download__link is-website" href="https://github.com/Aura1n/sfxer" target="_blank" rel="noopener noreferrer">
+      <i class="fas fa-arrow-up-right-from-square project-download__icon" aria-hidden="true"></i>
+      <span class="project-download__copy">
+        <strong>项目主页</strong>
+        <small>源码与更新说明</small>
+      </span>
+      <i class="fas fa-arrow-right project-download__arrow" aria-hidden="true"></i>
+    </a>
+    
+  </div></div>
+      </div>
+    </div>
+  </article><article class="project-card">
+    <div class="project-card__media">
+      <div class="project-card__shot"><img src="/img/projects/dymail.png" alt="Dymail 三栏邮件界面" loading="lazy" decoding="async"></div>
+      <span class="project-card__caption">界面预览</span>
+      <span class="project-card__number" aria-hidden="true">02</span>
     </div>
     <div class="project-card__body">
       <header class="project-card__header">
@@ -202,7 +245,7 @@
     <div class="project-card__media">
       <div class="project-card__shot"><img src="/img/projects/onebookstudio.png" alt="OnebookStudio 剧本编辑器界面" loading="lazy" decoding="async"></div>
       <span class="project-card__caption">界面预览</span>
-      <span class="project-card__number" aria-hidden="true">02</span>
+      <span class="project-card__number" aria-hidden="true">03</span>
     </div>
     <div class="project-card__body">
       <header class="project-card__header">
